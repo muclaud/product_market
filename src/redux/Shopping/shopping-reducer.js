@@ -1,12 +1,14 @@
 import * as actionTypes from './shopping-types';
+import apple from '../../assets/apple.jpg';
+import banan from '../../assets/banan.jpg';
+import papaya from '../../assets/papaya.jpg';
 
 const initialState = {
   products: [
     {
       id: '100',
       name: 'Banan',
-      image:
-        'https://east-fruit.com/wp-content/uploads/2020/11/banan-960x638.jpg',
+      image: banan,
       shortDescr:
         'A banana is an elongated, edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.',
       description:
@@ -17,8 +19,7 @@ const initialState = {
     {
       id: '101',
       name: 'Apple',
-      image:
-        'https://agropolit.com/media/news/o-o-w/00/09/9155/Apple-Fruit-Wallpaper-Free-y5Ezc-1200x750-13520.jpg',
+      image: apple,
       shortDescr:
         'An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.',
       description:
@@ -29,8 +30,7 @@ const initialState = {
     {
       id: '102',
       name: 'Papaya',
-      image:
-        'https://s9.travelask.ru/system/images/files/001/115/952/wysiwyg_jpg/4.jpg',
+      image: papaya,
       shortDescr:
         'The papaya is a small, sparsely branched tree, usually with a single stem growing from 5 to 10 m (16 to 33 ft) tall, with spirally arranged leaves confined to the top of the trunk.',
       description:
